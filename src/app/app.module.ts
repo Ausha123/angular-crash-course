@@ -8,6 +8,7 @@ import {FormsModule} from "@angular/forms";
 import { MessageDetailsComponent } from './components/message-details/message-details.component';
 import { MenuComponent } from './components/menu/menu.component';
 import { AboutComponent } from './components/about/about.component';
+import {HttpClientModule} from "@angular/common/http";
 
 @NgModule({
   declarations: [
@@ -21,7 +22,7 @@ import { AboutComponent } from './components/about/about.component';
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

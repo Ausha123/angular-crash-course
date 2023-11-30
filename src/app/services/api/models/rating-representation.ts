@@ -1,4 +1,4 @@
 export interface RatingRepresentation{
-  rating?:number,
+  rate?:number,
   count?:number
 }

@@ -9,6 +9,8 @@ import { MessageDetailsComponent } from './components/message-details/message-de
 import { MenuComponent } from './components/menu/menu.component';
 import { AboutComponent } from './components/about/about.component';
 import {HttpClientModule} from "@angular/common/http";
+import { ProductsComponent } from './components/products/products.component';
+import { ProductDetailsComponent } from './components/product-details/product-details.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,9 @@ import {HttpClientModule} from "@angular/common/http";
     FirstCompComponent,
     MessageDetailsComponent,
     MenuComponent,
-    AboutComponent
+    AboutComponent,
+    ProductsComponent,
+    ProductDetailsComponent
   ],
   imports: [
     BrowserModule,
